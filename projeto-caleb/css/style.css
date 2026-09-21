@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(9, 61, 249);
+    margin: 10;
+    padding: 10;
+
+}
+h1{
+    color:white;
+}
+
+
+p{
+    color:white;
+}
+.container{
+
+    width:350px;
+    margin: 80px auto;
+    background-color: rgb(53, 53, 54);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: (0 4px 15px rgba(0),0, 0. 15);
+    text-align: center;
+}
+    @keyframes flutuar {
+      0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+       transform: translateY(-20px);
+    }
+}
+.elemento{
+    animation: flutuar 2s ease-in-out infinite;
+}
+
+
+
+button{
+    width: 97%;
+    margin: 12px ;
+    padding: 15px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    font-size:16px;
+    color: white;
+    cursor: pointer;
+}
+  
+
+.elemento {
+    animation: aparecer 5s ease;
+}
+body{
+    background:linear-gradient(135deg,#636161d7,#040404);
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin:0;
+}
